@@ -314,6 +314,7 @@ h2::after {
   border-radius: var(--radio);
 }
 .avatar-docente { --startup: var(--accion); --sobre-startup: var(--sobre-accion); }
+.avatar-docente img { transform: none; }  /* la foto ya viene recortada; sin zoom extra */
 .docentes h3 { margin: 0 0 2px; font-size: 1.15rem; }
 .docentes p { margin: 0; color: var(--texto-suave); }
 
